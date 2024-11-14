@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CriptX - Offline</title>
+    <style>
+        /* Stili inline per la pagina offline */
+        body {
+            font-family: system-ui, -apple-system, sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            margin: 0;
+            background-color: #1f2937;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+        }
+        h1 { margin-bottom: 1rem; }
+        p { margin-bottom: 2rem; opacity: 0.8; }
+        button {
+            padding: 0.5rem 1rem;
+            background: #3b82f6;
+            border: none;
+            border-radius: 0.5rem;
+            color: white;
+            cursor: pointer;
+        }
+        button:hover { background: #2563eb; }
+    </style>
+</head>
+<body>
+    <h1>CriptX - Offline</h1>
+    <p>Sembra che tu sia offline. Verifica la tua connessione e riprova.</p>
+    <button onclick="window.location.reload()">Riprova</button>
+</body>
+</html> 
